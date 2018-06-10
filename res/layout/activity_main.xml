@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivUdacity" android:layout_width="fill_parent" android:layout_height="264.0dip" app:srcCompat="@drawable/ic_udacity" />
+    <TextView android:textSize="@dimen/dimText_sm" android:paddingLeft="@dimen/dimPadding_sm" android:paddingBottom="@dimen/dimPadding_sm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strUdacity" />
+    <TextView android:textSize="@dimen/dimText_sm" android:paddingLeft="@dimen/dimPadding_sm" android:paddingBottom="@dimen/dimPadding_sm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strPhone" />
+    <TextView android:textSize="@dimen/dimText_sm" android:paddingLeft="@dimen/dimPadding_sm" android:paddingBottom="@dimen/dimPadding_sm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strWebsite" />
+    <TextView android:textSize="@dimen/dimText_sm" android:paddingLeft="@dimen/dimPadding_sm" android:paddingBottom="@dimen/dimPadding_sm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strAddress" />
+</LinearLayout>
